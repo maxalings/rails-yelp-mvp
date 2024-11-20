@@ -11,11 +11,11 @@
 Restaurant.destroy_all
 
 restaurants = [
-  { name: 'The Great Wall', address: '123 Beijing St, Beijing', category: 'chinese' },
-  { name: 'La Trattoria', address: '456 Rome Ave, Rome', category: 'italian' },
-  { name: 'Sushi Zen', address: '789 Tokyo Rd, Tokyo', category: 'japanese' },
-  { name: 'Le Petit Paris', address: '101 Paris Blvd, Paris', category: 'french' },
-  { name: 'Chez Léon', address: '202 Brussels Square, Brussels', category: 'belgian' }
+  { name: 'The Great Wall', address: '123 Beijing St, Beijing', category: 'chinese', phone_number: '123-456-7890' },
+  { name: 'La Trattoria', address: '456 Rome Ave, Rome', category: 'italian', phone_number: '234-567-8901' },
+  { name: 'Sushi Zen', address: '789 Tokyo Rd, Tokyo', category: 'japanese', phone_number: '345-678-9012' },
+  { name: 'Le Petit Paris', address: '101 Paris Blvd, Paris', category: 'french', phone_number: '456-789-0123' },
+  { name: 'Chez Léon', address: '202 Brussels Square, Brussels', category: 'belgian', phone_number: '567-890-1234' }
 ]
 
 restaurants.each do |restaurant|
